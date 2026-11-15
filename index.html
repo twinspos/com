@@ -82,6 +82,7 @@ section{padding-block:60px}
 .ck{grid-template-columns:minmax(0,1fr)}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+[hidden]{display:none!important}
 </style>
 
 <header class="nav"><div class="w">
@@ -147,6 +148,7 @@ section{padding-block:60px}
 <div class="cta">
 <a class="btn pri" data-link="apk" href="#unduh" target="_blank" rel="noopener">Unduh Aplikasi Android</a>
 <a class="btn sec" data-link="backoffice" href="#unduh" target="_blank" rel="noopener">Login Backoffice</a>
+<a class="btn sec" data-link="owner" href="#unduh" rel="noopener" hidden>Unduh Aplikasi Owner</a>
 <a class="btn sec" data-link="pos" href="#unduh" target="_blank" rel="noopener" hidden>Buka Kasir Versi Web</a>
 </div>
 </div>
@@ -158,7 +160,8 @@ section{padding-block:60px}
 <script>
 /* Ubah alamat di sini */
 var LINKS={
- apk:"",
+ apk:"twinspos.apk",
+ owner:"twinsowner.apk",
  backoffice:"https://rw-005.github.io/backofficetwinspos/",
  pos:"",
  wa:"https://wa.me/6285695165552?text="+encodeURIComponent("Halo, saya tertarik dengan TWINS POS.")
