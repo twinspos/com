@@ -1,6 +1,8 @@
 {
-  "code": 77,
-  "name": "1.77",
-  "notes": "Layar Dapur 4 tahap (Order masuk, Mulai masak, Siap antar, Selesai) dengan status per menu. Kasir otomatis ditemukan di Wi-Fi. Mode Meja dengan tombol Buat Pesanan. Perbaikan tombol Mulai masak.",
-  "apk": "twinspos.apk"
+  "code": 87,
+  "name": "1.87",
+  "notes": "Tampilan kasir Resto (warna bisa dipilih), foto menu rapi, foto menu lintas perangkat.",
+  "apk": "twinspos.apk",
+  "exe": "https://drive.google.com/uc?export=download&id=1IOnTuspajwxLEp_PaZjQ7mJgyj8FZqHD",
+  "exeName": "Windows 10/11 · versi 1.0"
 }
